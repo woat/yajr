@@ -35,6 +35,7 @@ export default {
   border-top: .3rem solid rgba(var(--orange), .7);
   border-bottom: .1rem solid rgb(var(--light-grey));
   box-shadow: 0 1px 2px rgba(var(--grey), .2);
+  padding: .5rem 30rem;
 }
 
 .navi__left {
@@ -56,7 +57,7 @@ export default {
 }
 
 .navi__icon--text {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 600;
   color: rgb(var(--grey));
 }
