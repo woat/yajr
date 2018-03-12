@@ -3,7 +3,7 @@
     <div class="navi__left">
       <router-link to="">
         <div class="navi__icon">
-          <span class="fa-3x">
+          <span class="fa-2x">
             <i class="fas fa-align-left" data-fa-transform="shrink-8" data-fa-mask="fas fa-circle"></i>
           </span>
           <span class="navi__icon--text">YAJR</span>
@@ -32,7 +32,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: .4rem solid rgba(var(--orange), .7);
+  border-top: .3rem solid rgba(var(--orange), .7);
   border-bottom: .1rem solid rgb(var(--light-grey));
   box-shadow: 0 1px 2px rgba(var(--grey), .2);
 }
@@ -56,7 +56,7 @@ export default {
 }
 
 .navi__icon--text {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 600;
   color: rgb(var(--grey));
 }
@@ -70,8 +70,8 @@ export default {
   position: relative;
   overflow: hidden;
   color: rgb(var(--dark-grey));
-  font-size: 3rem;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .navi__list--item:after {
@@ -82,7 +82,7 @@ export default {
   width: 0;
   bottom: -.5rem;
   background: rgba(var(--orange), .8);
-  height: .4rem;
+  height: .2rem;
   border-radius: .5rem;
   transition-property: width;
   transition-duration: 0.2s;
