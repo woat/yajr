@@ -24,6 +24,7 @@ export default {
   --dark-blue: 27,50,95;
 
   --orange: 242,108,79;
+  --yellow: 231,201,137;
   
   --dark-grey: 31,31,31;
   --grey: 97,97,99;
@@ -48,7 +49,6 @@ a {
 
 #app {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  text-align: center;
 }
 
 .btn {
