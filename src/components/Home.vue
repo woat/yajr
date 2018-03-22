@@ -32,7 +32,7 @@
             <i class="fas fa-code fa-3x" data-fa-transform="shrink-7" data-fa-mask="fas fa-circle" style="color: rgb(var(--blue))"></i>
             <div class="features__item--content">
               <h3>For developers, by developers</h3>
-              <p>All resumes are built with HTML &amp; CSS &mdash; making changes is super simple.</p>
+              <p>All resumes are built with HTML &amp; CSS &mdash; making visual changes is super simple.</p>
             </div>
           </li>
           <li class="features__item">

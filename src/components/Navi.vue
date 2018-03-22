@@ -1,7 +1,7 @@
 <template>
   <div class="navi">
     <div class="navi__left">
-      <router-link to="">
+      <router-link to="/">
         <div class="navi__icon">
           <span class="fa-2x">
             <i class="fas fa-align-left" data-fa-transform="shrink-8" data-fa-mask="fas fa-circle"></i>
@@ -13,7 +13,7 @@
 
     <div class="navi__right">
       <ul class="navi__list">
-        <router-link to=""><li class="navi__list--item">Start</li></router-link>
+        <router-link to="/start"><li class="navi__list--item">Start</li></router-link>
         <router-link to=""><li class="navi__list--item">Help</li></router-link>
         <router-link to=""><li class="navi__list--item">Contact</li></router-link>
       </ul>
@@ -100,5 +100,12 @@ export default {
 
 .navi__list--item:hover {
   color: rgb(var(--blue));
+}
+
+
+@media print {
+  .navi {
+    display: none;
+  }
 }
 </style>
