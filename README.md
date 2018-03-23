@@ -1,8 +1,13 @@
-# yajr
+# yajr (`beta`)
 
-> Yet Another JSON Resume
+![homepage](https://i.imgur.com/bw579ME.png)
+![homepage](https://i.imgur.com/rvx8qCI.png)
+
+> Yet Another JSON Resume, a developer way of creating a resume.
 
 ## Build Setup
+
+Site is not currently live, please build + serve locally:
 
 ``` bash
 # install dependencies
@@ -10,12 +15,4 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
